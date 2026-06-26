@@ -1,0 +1,17 @@
+# Development notebooks and raw data (kept locally only)
+Hardness KANs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optuna SQLite databases
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
