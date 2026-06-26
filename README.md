@@ -63,6 +63,46 @@ Each entry stores `k`, `g`, `lamb`, `lamb_entropy` (absolute), and
 
 ---
 
+## Acknowledgements
+
+This work builds on **pyKAN** (the `pykan` package) by Liu et al.  If you use
+this repository in your research, please also cite the original KAN papers:
+
+```
+@article{liu2024kan,
+  title   = {{KAN}: Kolmogorov-Arnold Networks},
+  author  = {Liu, Ziming and Wang, Yixuan and Vaidya, Sachin and Ruehle, Fabian
+             and Halverson, James and Solja\v{c}i\'{c}, Marin and Hou, Thomas Y.
+             and Tegmark, Max},
+  journal = {arXiv preprint arXiv:2404.19756},
+  year    = {2024}
+}
+
+@article{liu2024kan2,
+  title   = {{KAN} 2.0: Kolmogorov-Arnold Networks Meet Science},
+  author  = {Liu, Ziming and Zhu, Boxuan and Bright, Sean and Vaidya, Sachin
+             and Guo, Haoxuan and Gao, Tao and Tegmark, Max},
+  journal = {arXiv preprint arXiv:2408.10205},
+  year    = {2024}
+}
+```
+
+The HEA dataset is from:
+
+```
+@article{gorsse2018database,
+  title   = {Database on mechanical properties of high entropy alloys and
+             complex concentrated alloys},
+  author  = {Gorsse, St{\'e}phane and Miracle, Daniel B. and Senkov, Oleg N.},
+  journal = {Data in Brief},
+  volume  = {21},
+  pages   = {2664--2678},
+  year    = {2018}
+}
+```
+
+---
+
 ## Requirements
 
 ```
