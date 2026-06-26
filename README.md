@@ -86,6 +86,14 @@ pip install pykan torch numpy pandas scikit-learn optuna matplotlib tqdm
 
 ## Data
 
-The Berry/Gorsse dataset (`Gorsse2018ML_Data_RawHV.csv`) is not included in
-this repository.  Update the `DATA_PATH` variable at the top of each notebook
-to point at your local copy.
+`Gorsse2018ML_Data_RawHV.csv` is included in this repository.  It is the
+Berry/Gorsse 2018 HEA dataset (244 compositions, 10 elemental fraction inputs,
+raw Vickers Hardness output).
+
+Update the `DATA_PATH` variable at the top of each notebook to point at the
+location where you have cloned the repo:
+
+```python
+DATA_PATH = r"C:\path\to\HEA-KANS"
+DATA_FILE = "Gorsse2018ML_Data_RawHV.csv"
+```
